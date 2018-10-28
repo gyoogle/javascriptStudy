@@ -1,0 +1,19 @@
+{
+  "name": "jsstudy",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kim6394/javascriptStudy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kim6394/javascriptStudy/issues"
+  },
+  "homepage": "https://github.com/kim6394/javascriptStudy#readme"
+}

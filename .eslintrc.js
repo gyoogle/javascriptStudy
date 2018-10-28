@@ -5,7 +5,7 @@ module.exports = {
         "es6": true,
         "node": true
     },
-    "extends": "eslint:recommended",
+    //"extends": "eslint:recommended",
     "parserOptions": {
         "ecmaVersion": 2015
     },
@@ -14,10 +14,7 @@ module.exports = {
             "error",
             "tab"
         ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
+        "linebreak-style": 0,
         "quotes": [
             "error",
             "double"
@@ -25,6 +22,11 @@ module.exports = {
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-console": [
+            "error",
+            { "allow" : ["log"] }
+        ],
+        "no-var": "error"
     }
 };
