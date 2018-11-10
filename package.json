@@ -16,5 +16,8 @@
     "url": "https://github.com/kim6394/javascriptStudy/issues"
   },
   "homepage": "https://github.com/kim6394/javascriptStudy#readme",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
 }
